@@ -28,7 +28,7 @@ server.get('/hubs', (req, res) => {
       res.status(500).json({success:false, err});
     });
 });
-
+ 
 // C - Create (CRUD)
 server.post('/hubs', (req, res) => {
   const hubInfo = res.body;
